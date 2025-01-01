@@ -6,7 +6,7 @@ const userRoute = require('./routes/userRoutes');
 
 const port = process.env.SERVER_PORT | 4001;
 const app = express();
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs');//
 app.set('views','./views');
 app.use(express.static("public"));
 
